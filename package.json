@@ -1,0 +1,33 @@
+{
+  "name": "space-finder-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashmit19/space-finder-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashmit19/space-finder-backend/issues"
+  },
+  "homepage": "https://github.com/ashmit19/space-finder-backend#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "aws-cdk": "^2.24.1",
+    "aws-cdk-lib": "^2.24.1",
+    "constructs": "^10.1.10",
+    "esbuild": "^0.14.39",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2"
+  }
+}
