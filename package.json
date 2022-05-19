@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,16 @@
   "homepage": "https://github.com/ashmit19/space-finder-backend#readme",
   "devDependencies": {
     "@types/node": "^17.0.34",
+    "@types/webpack": "^5.28.0",
     "aws-cdk": "^2.24.1",
     "aws-cdk-lib": "^2.24.1",
     "constructs": "^10.1.10",
     "esbuild": "^0.14.39",
+    "ts-loader": "^9.3.0",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "@types/uuid": "^8.3.4",
